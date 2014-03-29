@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: false
+OpenIDE-Module: bartsidee.nb.ejs
+OpenIDE-Module-Layer: bartsidee/nb/ejs/layer.xml
+OpenIDE-Module-Localizing-Bundle: bartsidee/nb/ejs/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0

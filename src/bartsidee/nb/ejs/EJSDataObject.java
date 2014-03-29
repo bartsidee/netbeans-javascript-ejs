@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package javascript.ejs;
+package bartsidee.nb.ejs;
 
 import java.io.IOException;
 import org.netbeans.core.spi.multiview.MultiViewElement;
@@ -32,7 +32,7 @@ import org.openide.windows.TopComponent;
 )
 @DataObject.Registration(
         mimeType = "application/x-ejs",
-        iconBase = "javascript/ejs/ejs16.gif",
+        iconBase = "bartsidee/nb/ejs/ejs16.gif",
         displayName = "#LBL_EJS_LOADER",
         position = 300
 )
@@ -102,7 +102,7 @@ public class EJSDataObject extends MultiDataObject {
 
     @MultiViewElement.Registration(
             displayName = "#LBL_EJS_EDITOR",
-            iconBase = "javascript/ejs/ejs16.gif",
+            iconBase = "bartsidee/nb/ejs/ejs16.gif",
             mimeType = "application/x-ejs",
             persistenceType = TopComponent.PERSISTENCE_ONLY_OPENED,
             preferredID = "EJS",

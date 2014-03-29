@@ -4,13 +4,7 @@
  * and open the template in the editor.
  */
 
-package javascript.ejs.parser;
+@TemplateRegistration(folder = "Other", content = "EJSTemplate.ejs")
+package bartsidee.nb.ejs;
 
-import org.netbeans.modules.javascript2.editor.parser.JsParser;
-/**
- *
- * @author bartvandenende
- */
-public class EJSParser extends JsParser {
-    
-}
+import org.netbeans.api.templates.TemplateRegistration;

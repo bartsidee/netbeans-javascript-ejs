@@ -4,11 +4,11 @@
  * and open the template in the editor.
  */
 
-package javascript.ejs.lexer.api;
+package bartsidee.nb.ejs.lexer.api;
 
-import javascript.ejs.lexer.EJSLexer;
+import bartsidee.nb.javascript2.lexer.api.JsTokenId;
+import bartsidee.nb.ejs.lexer.EJSLexer;
 import org.netbeans.api.html.lexer.HTMLTokenId;
-import org.netbeans.modules.javascript2.editor.api.lexer.JsTokenId;
 import java.util.Collection;
 import java.util.EnumSet;
 import java.util.Map;

@@ -6,7 +6,7 @@
         <folder name="application">
             <folder name="x-ejs">
                 
-                <file name="javascript-ejs-EmbeddedSectionsHighlighting$Factory.instance">
+                <file name="bartsidee-nb-ejs-EmbeddedSectionsHighlighting$Factory.instance">
                     <attr name="instanceOf" stringvalue="org.netbeans.spi.editor.highlighting.HighlightsLayerFactory"/>
                 </file>
                 <file name="org-netbeans-modules-csl-editor-semantic-HighlightsLayerFactoryImpl.instance">
@@ -21,7 +21,7 @@
                 </file>
                 
                 <file name="language.instance">
-                    <attr name="instanceCreate" methodvalue="javascript.ejs.lexer.api.EJSTokenId.language"/>
+                    <attr name="instanceCreate" methodvalue="bartsidee.nb.ejs.lexer.api.EJSTokenId.language"/>
                     <attr name="instanceOf" stringvalue="org.netbeans.api.lexer.Language"/>
                 </file>
                 <folder name="FoldManager">
@@ -40,12 +40,12 @@
                     </file>
                 </folder>
                 
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="javascript.ejs.Bundle"/>
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="bartsidee.nb.ejs.Bundle"/>
                 <folder name="FontsColors">
                     <folder name="NetBeans">
                         <folder name="Defaults">
                             <file name="FontAndColors.xml" url="FontAndColors.xml">
-                                <attr name="SystemFileSystem.localizingBundle" stringvalue="javascript.ejs.Bundle"/>
+                                <attr name="SystemFileSystem.localizingBundle" stringvalue="bartsidee.nb.ejs.Bundle"/>
                             </file>
                         </folder>
                     </folder>

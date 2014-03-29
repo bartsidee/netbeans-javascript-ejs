@@ -42,7 +42,7 @@
  * made subject to such option by the copyright holder.
  */
 
-package javascript.ejs;
+package bartsidee.nb.ejs;
 
 import java.awt.Color;
 import java.util.NoSuchElementException;
@@ -62,7 +62,7 @@ import org.netbeans.api.lexer.TokenSequence;
 import org.netbeans.editor.BaseDocument;
 import org.netbeans.editor.Utilities;
 import org.netbeans.lib.editor.util.swing.DocumentUtilities;
-import javascript.ejs.lexer.api.EJSTokenId;
+import bartsidee.nb.ejs.lexer.api.EJSTokenId;
 import org.netbeans.spi.editor.highlighting.HighlightsLayer;
 import org.netbeans.spi.editor.highlighting.HighlightsLayerFactory;
 import org.netbeans.spi.editor.highlighting.HighlightsSequence;
@@ -283,7 +283,7 @@ public class EmbeddedSectionsHighlighting extends AbstractHighlightsContainer im
     public static final class Factory implements HighlightsLayerFactory {
         public HighlightsLayer[] createLayers(Context context) {
             return new HighlightsLayer[]{ HighlightsLayer.create(
-                "rhtml-embedded-javascript-scriplets-highlighting-layer", //NOI18N
+                "ejs-embedded-javascript-scriplets-highlighting-layer", //NOI18N
                 ZOrder.BOTTOM_RACK.forPosition(100), 
                 true, 
                 new EmbeddedSectionsHighlighting(context.getDocument())

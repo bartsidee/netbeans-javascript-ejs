@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package javascript.ejs;
+package bartsidee.nb.ejs;
 
 import javax.swing.Action;
 import javax.swing.JComponent;
@@ -20,7 +20,7 @@ import org.openide.windows.TopComponent;
 
 @MultiViewElement.Registration(
         displayName = "#LBL_EJS_VISUAL",
-        iconBase = "javascript/ejs/ejs16.gif",
+        iconBase = "bartsidee/nb/ejs/ejs16.gif",
         mimeType = "application/x-ejs",
         persistenceType = TopComponent.PERSISTENCE_NEVER,
         preferredID = "EJSVisual",
